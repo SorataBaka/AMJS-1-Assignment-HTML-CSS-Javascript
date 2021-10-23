@@ -1,0 +1,33 @@
+.back-button {
+  display: inline;
+  position: relative;
+  left: 20px;
+  top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.main-login-block {
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+  width: 40%;
+  text-align: center;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.email-group {
+  border: 0px;
+  border-bottom: 2px solid black;
+}
+.email-group:focus {
+  border:0px;
+}
+.password-group {
+  border: 0px;
+  border-bottom: 2px solid black;
+}

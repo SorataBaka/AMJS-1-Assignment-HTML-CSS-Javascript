@@ -1,0 +1,162 @@
+body{
+  margin: 0px;
+	background-image: url("../assets/background_home.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: auto;
+}
+
+/* Main header css styles */
+.header {
+  background-image: linear-gradient(to bottom right, #003250 , #0098F2 );
+  height: 120px;
+  position:sticky;
+	top: 0px;
+	box-shadow: 0px 0px 10px black;
+}
+.header-logo {
+  height: 120px;
+  position: absolute;
+  top: 5px;
+  left: 35px;
+}
+.button-group {
+  position: absolute;
+  right: 30px;
+  top: 35px;
+  width: 210px;
+	height: auto;
+}
+.register-button {
+	background-color: #404040;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:14px 11px;
+	text-decoration:none;
+  border: none;
+  width: 100px;
+}
+.login-button:hover {
+	background-color:black;
+}
+.login-button {
+	background-color: #404040;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:14px 11px;
+	text-decoration:none;
+  border: none;
+  width: 100px;
+}
+.register-button:hover {
+	background-color:black;
+}
+
+
+
+
+/* Main body css styles */
+.main-body {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+	text-align: center;
+	margin-top: 200px;
+	height: 600px;
+}
+/* .body-background {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: auto;
+	display: block;
+	overflow: hidden;
+} */
+.body-content {
+	display: block;
+	width: 100%;
+	margin-top: 0px
+}
+.body-text-header {
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	font-size: 70px;
+	margin-top: 0px;
+}
+.body-text-paragraph {
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	font-size: 35px;
+}
+.menu-button {
+	background-color: #404040;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:20px 5px;
+	text-decoration:none;
+  border: none;
+  width: 150px;
+}
+
+
+/* Footer CSS styles */
+.footer {
+	display: block;
+	bottom: 0px;
+	height: 120px;
+	background-color: #636363;
+}
+.logo-row {
+	text-align: center;
+	word-spacing: 25px;
+	position: relative;
+	top: 15px;
+}
+.social-image {
+	width: auto;
+	height: auto;
+}
+@media only screen and (max-width:1106px){
+	.body-background {
+		margin-left: auto;
+		margin-right: auto;
+		width: auto;
+		height: 100%;
+		display:block;
+		overflow: hidden;
+	}
+}
+@media only screen and (max-width:600px){
+	.header {
+		height: 180px;
+		display: static;
+	}
+	.header-logo {
+		height: 110px;
+		position: static;
+		display: block;
+		margin: auto;
+	}
+	.button-group{
+		position: static;
+		display: block;
+		margin: auto;
+	}
+}
