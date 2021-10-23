@@ -109,6 +109,9 @@ html {
   border: none;
   width: 150px;
 }
+.menu-button:hover {
+	background-color:black;
+}
 /* Footer CSS styles */
 .footer {
 	display: block;
@@ -174,4 +177,38 @@ html {
 		color: white;
 		font-size: 20px;
 	}
+}
+
+.nav-bar {
+	height: auto;
+	background-color: #292929;
+}
+.nav-buttons {
+	display: inline;
+}
+.nav-button {
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	display: inline-block;
+	height: auto;
+	text-align: center;
+	width: 10%;
+	height: auto;
+}
+.nav-button:hover{
+	background-image: black;
+}
+.nav-button:active {
+	background-color:lightblue ;
+}
+.nav-button-name {
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+
+a {
+	text-decoration: none;
 }
