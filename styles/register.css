@@ -1,0 +1,96 @@
+.back-button {
+  display: inline;
+  position: relative;
+  left: 20px;
+  top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main-register-block {
+  text-align: center;
+  margin-top: 10vh;
+}
+.register-header {
+  margin-bottom: 30px;
+}
+.register-fill {
+  display: block;
+  width: 55%;
+  margin: auto;
+  text-align: left;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+label, select, option, input  {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text-label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.city-header {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px
+}
+.city-selection {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px
+}
+
+.name-group {
+  border: 0px;
+  border-bottom: 2px solid black;
+  outline: 0px;
+  width: 100%;
+  font-size: 20px;
+}
+.email-group {
+  border: 0px;
+  border-bottom: 2px solid black;
+  outline: 0px;
+  width: 100%;
+  font-size: 20px;
+}
+.password-group {
+  border: 0px;
+  border-bottom: 2px solid black;
+  outline: 0px;
+  width: 100%;
+  font-size: 20px;
+}
+.submit-button {
+  background-color: black;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:15px 0px;
+	text-decoration:none;
+  border: none;
+  width: 150px;
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+}
+.city-selection {
+  display: block;
+  width: 100%;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  border-radius: 5px;
+}
+.gender-div {
+  margin-bottom: 18px;
+}

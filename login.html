@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./styles/login.css">
+	<link rel="icon" href="./assets/favicon.ico">
 	<title>FamDiner</title>
 </head>
-
 <body style="margin: 0px;">
 	<a href="./index.html"><p class="back-button" style="margin: 0px;">Back</p></a>
 	<div class="main-login-block">
@@ -17,13 +16,13 @@
 				<form>
 					<div class="form-group">
 						<p>Email</p>
-						<input type="email" class="email-group" id="email">
+						<input type="email" class="email-group" id="email" required>
 					</div>
 					<div class="form-group">
 						<p>Password</p>
-						<input type="password" class="password-group" id="email">
+						<input type="password" class="password-group" id="password" required>
 					</div>
-					<button type="submit" class="submit-button">Login</button>
+					<input type="submit" value="Login" class="submit-button">
 				</form>
 				<p>Want to join us? Register <a href="./register.html">here!</a></p>
 			</div>

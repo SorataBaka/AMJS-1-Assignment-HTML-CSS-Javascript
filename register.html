@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/register.css">
+  <title>FamDiner</title>
+</head>
+<body style="margin: 0px; padding: 0px;">
+  <a href="./index.html"><p class="back-button" style="margin: 0px;">Back</p></a>
+  <div class="main-register-block">
+    <h1 class="register-header">Register</h1>
+    <div class="register-fill">
+      <form>
+        <div class="name-div">
+          <label for="name" class="text-label">Name: </label>
+          <input type="text" class="name-group" id="name" required>
+        </div>
+
+
+        <div class="email-div">
+          <label for="email" class="text-label">Email: </label>
+          <input type="email" class="email-group" id="email" required>
+        </div>
+
+
+        <div class="gender-div">
+          <p>Gender: </p>
+          <input type="radio" name="gender" class="gender-group" id="gender" value="Male">
+          <label for="male">Male</label>
+          <input type="radio" name="gender" class="gender-group" id="gender" value="Female">
+          <label for="female">Female</label>
+        </div>
+
+
+        <div class="city-div">
+          <label for="city" class="city-header">City: </label>
+          <select name="City" id="city" class="city-selection" required>
+            <option value="Banda Aceh">Banda Aceh</option>
+            <option value="Medan">Medan</option>
+            <option value="Padang">Padang</option>
+            <option value="Riau">Pekanbaru</option>
+            <option value="Kepulauan Riau">Tanjung Pinang</option>
+            <option value="Jambi">Jambi</option>
+            <option value="Palembang">Palembang</option>
+            <option value="Pangkal Pinang">Pangkal Pinang</option>
+            <option value="Bengkulu">Bengkulu</option>
+            <option value="Bandar Lampung">Bandar Lampung</option>
+            <option value="Jakarta">Jakarta</option>
+            <option value="Serang">Serang</option>
+            <option value="Bandung">Bandung</option>
+            <option value="Semarang">Semarang</option>
+            <option value="Yogyakarta">Yogyakarta</option>
+            <option value="Surabaya">Surabaya</option>`
+            <option value="Denpasar">Denpasar</option>
+            <option value="Mataram">Mataram</option>
+            <option value="Kupang">Kupang</option>
+            <option value="Pontianak">Pontianak</option>
+            <option value="Palangkaraya">PalangKaraya</option>
+            <option value="Banjarmasin">Banjarmasin</option>
+            <option value="Samarinda">Samarinda</option>
+            <option value="Tajung Selor">Tanjung Selor</option>
+            <option value="Manado">Manado</option>
+            <option value="Gorontalo">Gorontalo</option>
+            <option value="Palu">Palu</option>
+            <option value="Mamuju">Mamuju</option>
+            <option value="Makassar">Makassar</option>
+            <option value="Kendari">Kendari</option>
+            <option value="Ambon">Ambon</option>
+            <option value="Sofifi">Sofifi</option>
+            <option value="Monokwari">Monokwari</option>
+            <option value="Jayapura">Jayapura</option>
+          </select>
+        </div>
+
+        <div class="password-div">
+          <label for="password" class="text-label">Password: </label>
+          <input type="password" class="password-group" id="password" required>
+        </div>
+
+
+        <div class="confirm-pasword-div">
+          <label for="passwordconfirm" class="text-label">Confirm Password: </label>
+          <input type="password" class="password-group" id="passwordconfirm" required>
+        </div>
+        <input type="submit" value="Submit" class="submit-button">
+      </form>
+    </div>
+</div>
+</body>
+</html>

@@ -9,8 +9,8 @@
 .main-login-block {
   display: block;
   margin: auto;
-  margin-top: 100px;
-  width: 40%;
+  margin-top: 20vh;
+  width: auto ;
   text-align: center;
 }
 h1 {
@@ -19,15 +19,34 @@ h1 {
 p {
   font-family: Arial, Helvetica, sans-serif;
 }
-
 .email-group {
   border: 0px;
   border-bottom: 2px solid black;
-}
-.email-group:focus {
-  border:0px;
+  outline: 0px;
+  width: 30vh;
+  font-size: 20px;
+  text-align: center;
 }
 .password-group {
   border: 0px;
   border-bottom: 2px solid black;
+  outline: 0px;
+  width: 30vh;
+  font-size: 20px;
+  text-align: center;
+}
+.submit-button {
+  background-color: black;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:15px 0px;
+	text-decoration:none;
+  border: none;
+  width: 150px;
+  margin-top: 30px;
 }
