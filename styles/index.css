@@ -8,6 +8,12 @@ html {
 	height: 100%;
 }
 /* Main header css styles */
+.header-group {
+	top: 0px;
+	/* height: auto;
+	position: sticky; */
+	box-shadow: 0px 0px 10px black;
+}
 .header {
   background-image: linear-gradient(to bottom right, #003250 , #0098F2 );
   height: 90px;
@@ -63,11 +69,46 @@ html {
 	background-color:black;
 }
 /* Navigation bar */
-.navigation {
-	color: white;
+
+.nav-bar {
+	height: auto;
+	background-color: #292929;
 }
-
-
+.nav-buttons {
+	display: inline;
+}
+.nav-button {
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	display: inline-block;
+	height: auto;
+	text-align: center;
+	width: 9%;
+	height: auto;
+}
+.nav-button:hover{
+	background-image: black;
+}
+.nav-button:active {
+	background-color:lightblue ;
+}
+.nav-button-name {
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 1vw;
+}
+a {
+	text-decoration: none;
+}
+@media only screen and (max-width:1024px){
+	.nav-button {
+		width:33%
+	}
+	.nav-button-name{
+		font-size: 4vw
+	}
+}
 
 /* Main body css styles */
 .main-body {
@@ -77,7 +118,8 @@ html {
 	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../assets/background_home.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover
+	background-size: cover;
+	overflow: auto;
 }
 .body-content {
 	display: block;
@@ -177,38 +219,4 @@ html {
 		color: white;
 		font-size: 20px;
 	}
-}
-
-.nav-bar {
-	height: auto;
-	background-color: #292929;
-}
-.nav-buttons {
-	display: inline;
-}
-.nav-button {
-	color: white;
-	font-family: Arial, Helvetica, sans-serif;
-	display: inline-block;
-	height: auto;
-	text-align: center;
-	width: 10%;
-	height: auto;
-}
-.nav-button:hover{
-	background-image: black;
-}
-.nav-button:active {
-	background-color:lightblue ;
-}
-.nav-button-name {
-	display: block;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	font-size: 20px;
-}
-
-
-a {
-	text-decoration: none;
 }

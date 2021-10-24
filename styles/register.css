@@ -94,3 +94,43 @@ label, select, option, input  {
 .gender-div {
   margin-bottom: 18px;
 }
+.nav-bar {
+	height: auto;
+	background-color: #292929;
+  box-shadow: 0px 0px 10px black;
+}
+.nav-buttons {
+	display: inline;
+}
+.nav-button {
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	display: inline-block;
+	height: auto;
+	text-align: center;
+	width: 9%;
+	height: auto;
+}
+.nav-button:hover{
+	background-image: black;
+}
+.nav-button:active {
+	background-color:lightblue ;
+}
+.nav-button-name {
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 1vw;
+}
+a {
+	text-decoration: none;
+}
+@media only screen and (max-width:1024px){
+	.nav-button {
+		width:33%
+	}
+	.nav-button-name{
+		font-size: 3vw
+	}
+}

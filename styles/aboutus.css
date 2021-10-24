@@ -1,0 +1,126 @@
+body, h1, p {
+  margin: 0px;
+  padding: 0px;
+}
+.header-group {
+  top: 0px;
+}
+.header {
+  height: 90px;
+  background-color: #484848;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  box-shadow: 0px 0px 10px black;
+  position: sticky;
+  top: 0px;
+}
+.header-title {
+  padding: 1%;
+  font-size: 50px;
+}
+.nav-bar {
+	height: auto;
+	background-color: #292929;
+  box-shadow: 0px 0px 0px 0px black;
+}
+.nav-buttons {
+	display: inline;
+}
+.nav-button {
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	display: inline-block;
+	height: auto;
+	text-align: center;
+	width: 9%;
+	height: auto;
+}
+.nav-button:hover{
+	background-image: black;
+}
+.nav-button:active {
+	background-color:lightblue ;
+}
+.nav-button-name {
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 1vw;
+}
+a {
+	text-decoration: none;
+}
+@media only screen and (max-width:1024px){
+	.nav-button {
+		width:33%
+	}
+	.nav-button-name{
+		font-size: 4vw
+	}
+}
+.main-body {
+  background-color: #292929;
+  height: 100vh;
+  display: block;
+  overflow: auto;
+}
+.about-us-paragraph {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  display: block;
+  width: 75vw;
+  margin: auto;
+  padding: 9vh;
+  text-align: justify;
+  line-height: 50px;
+}
+.contact-div {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 75vw;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 9vh;
+  padding-right: 9vh;
+}
+.contact-header {
+  font-size: 40px;
+  margin-top: 0px;
+}
+.contact-info {
+  font-size: 19px;
+  margin-top:30px;
+}
+
+
+.footer {
+	height: 100px;
+	width: 100%;
+	background-color: #292929;
+	text-align: center;
+	box-shadow: 0px 0px 10px black;
+
+}
+.logo-row {
+	word-spacing: 25px;
+	position: relative;
+	top: 24px;
+}
+.social-image {
+	width: auto;
+	height: auto;
+}
+.copyright {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	margin: 0px;
+	display: inline-block;
+	position: relative;
+	top: 30px;
+	font-size: 12px;
+	word-spacing: 4px;
+}
