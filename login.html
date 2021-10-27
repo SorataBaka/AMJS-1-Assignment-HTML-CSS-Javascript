@@ -39,21 +39,25 @@
       </a>
     </div>
   </div>
-	<!-- <a href="./index.html"><p class="back-button" style="margin: 0px;">Back</p></a> -->
 	<div class="main-login-block">
 			<h1 class="login-header">Login</h1>
+			<div class="no-login" id="no-login">
+				<p>It seems like your account is not registered! Click <a href="./register.html">here</a> to register! </p>
+			</div>
+			<div class="no-login" id="invalid-password">
+				<p>Invalid Password!</p>
+			</div>
 			<div class="login-fill">
-				<form>
+				<form onsubmit="return false">
 					<div class="form-group">
 						<p>Email</p>
-						<input type="email" class="email-group" id="email" required>
+						<input type="email" class="email-group" id="email" required onkeyup="validateEmail()" onchange="validateEmail()">
 					</div>
 					<div class="form-group">
 						<p>Password</p>
-						<input type="password" class="password-group" id="password" autocomplete="on" required minlength=8>
+						<input type="password" class="password-group" id="password" autocomplete="on" required minlength=8 onkeyup="validatePassword()" onchange="validatePassword()">
 					</div>
-					<!-- <button class="submit-button" id="submit" onclick="validate()" >Login</button> -->
-					<input id="submit" type="submit" value="Login" class="submit-button" onclick="validate()">
+					<button class="submit-button" id="submit" onclick="login()" >Login</button>
 				</form>
 				<p>Want to join us? Register <a href="./register.html">here!</a></p>
 			</div>

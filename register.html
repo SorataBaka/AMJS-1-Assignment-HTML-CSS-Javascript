@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="./styles/register.css">
 	<link rel="icon" href="../assets/favicon.ico">
   <script src="./script/register.js"></script>
+  
 </head>
 <body style="margin: 0px; padding: 0px;">
   <div class="nav-bar">
@@ -41,14 +42,17 @@
   <div class="main-register-block">
     <h1 class="register-header">Register</h1>
     <div class="register-fill">
-      <form>
+      <form onsubmit="return false">
         <div class="name-div">
           <label for="name" class="text-label">Name: </label>
           <input type="text" class="name-group" id="name" required>
         </div>
         <div class="email-div">
           <label for="email" class="text-label">Email: </label>
-          <input type="email" class="email-group" id="email" required>
+          <input type="email" class="email-group" id="email" required onkeyup="validateEmail()" onchange="validateEmail()">
+          <p id="emailalert" style="color: red; font-size: 10px; display: none;">Your email is already registered!</p>
+          <p id="emailformatalert" style="color: red; font-size: 10px; display: none;">Please enter a valid email address!</p>
+          
         </div>
         <div class="gender-div">
           <p>Gender: </p>
@@ -98,17 +102,16 @@
         </div>
         <div class="password-div">
           <label for="password" class="text-label">Password: </label>
-          <input type="password" class="password-group" id="password" required>
+          <input type="password" class="password-group" id="password" required onkeyup="validatePassword()" onchange="validatePassword()">
         </div>
         <div class="confirm-pasword-div">
           <label for="passwordconfirm" class="text-label">Confirm Password: </label>
-          <input type="password" class="password-group" id="passwordconfirm" required>
-          <p id="confirmationalert" style="color: red; font-size: 10px; display: none;">Your Confirmation password mus tbe the same as your password!</p>
+          <input type="password" class="password-group" id="passwordconfirm" required  onkeyup="validatePassword()" onchange="validatePassword()">
+          <p id="confirmationalert" style="color: red; font-size: 10px; display: none;">Your Confirmation password must be the same as your password!</p>
           <p id="passwordalert" style="color: red; font-size: 10px; display: none;">Your Password must contain atleast 1 uppercase letter and 1 digit number!</p>
           <p id="passwordlengthalert" style="color: red; font-size: 10px; display: none;">Your Password must atleast be 8 characters long!</p>
         </div>
         <button class="submit-button" onclick="register()" id="submit-button" style="background-color: grey;">Register</button>
-        <!-- <input type="submit" value="Submit" class="submit-button" onload="register()"> -->
       </form>
     </div>
 </div>
