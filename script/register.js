@@ -2,6 +2,8 @@ var emailValid = false
 var passwordValid = false
 var formValid = false
 
+//ALL USER LOGINS ARE STORED IN LOCALSTORAGE DUE TO NO DATABASES USED.
+
 const register = async() => {
   const name = document.getElementById("name").value
   const email = document.getElementById("email").value

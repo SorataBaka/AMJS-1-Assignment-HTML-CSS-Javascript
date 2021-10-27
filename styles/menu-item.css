@@ -120,9 +120,9 @@ a {
 }
 .menu-item {
 	display: inline-block;
-	width: 230px;
+	width: 17%;
 	background-color: white;
-	height: 50vh;
+	height: auto;
 	margin-left: 1vw;
 	margin-right: 1vw;
 	border-radius: 10px;
@@ -138,14 +138,14 @@ a {
 	width: 80vw;
 }
 .menu-item img {
-	height: 120px;
+	height: 8vw;
 	padding-top: 20%;
 	padding-bottom: 10%;
 }
 .menu-list {
-	margin-top: 40px;
+	margin-top: 10vh;
 	padding: 0px;
-	height: 50vh;
+	height: auto;
 }
 .main-body-content {
 	width: 90%;
