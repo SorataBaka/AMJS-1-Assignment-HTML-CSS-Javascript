@@ -11,7 +11,7 @@ const register = async() => {
   const userObject = JSON.stringify({name, email, gender, city, password})
   localStorage.setItem(email, userObject);
   sessionStorage.setItem("currentSession", userObject);
-  window.location.replace("/index.html")
+  window.location.replace("./index.html")
 }
 const validatePassword = async()=> {
   var password1valid = false
