@@ -15,8 +15,7 @@ const login = async() => {
   if(!userObject) return noAccount.style.display = "block"
   if(password !== userObject.password) return invalidPassword.style.display = "block"
   sessionStorage.setItem("currentSession",JSON.stringify(userObject))
-  window.location.replace("./index.html")
-
+  window.location.replace("../index.html")
 }
 const validateEmail = async() => {
   const email = document.getElementById("email").value
