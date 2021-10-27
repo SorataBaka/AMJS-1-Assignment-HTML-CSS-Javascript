@@ -7,8 +7,18 @@
 	<link rel="stylesheet" href="../styles/menu-item.css">
 	<link rel="icon" href="../assets/favicon.ico">
 	<title>FamDiner - Burger</title>
+  <script src="../script/loaduser.js"></script>
 </head>
-<body style="margin: 0px;">
+<body style="margin: 0px;"onload="checkSession()">
+  <!-- Header Section -->
+  <div class="header">
+    <a href="../index.html"><img class="header-logo" src="../assets/logo.svg" alt="Fam Diner Logo"></a>
+    
+    <div class="button-group" id="button-group">
+      <a href="./register.html"><button class="register-button">REGISTER</button></a>
+      <a href="./login.html"><button class="login-button">LOGIN</button></a>
+    </div>
+  </div>
 	<div class="nav-bar">
     <div class="nav-buttons">
       <a href="../index.html" class="nav-button" >
@@ -64,7 +74,7 @@
           <p class="most-popular"style="background-color: white; color: white;">MOST POPULAR</p>
         </div>
         <div class="menu-item">
-          <img src="../assets/spaghetti.png" alt="Spaghetti Image"class="menu-image">
+          <img src="../assets/spaghetti.png" alt="Spaghetti Image"class="menu-image"  >
           <p class="menu-item-name">Spaghetti</p>
           <p class="menu-item-price">Rp. 40.000</p>
           <p class="most-popular"style="background-color: white; color: white;">MOST POPULAR</p>

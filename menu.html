@@ -7,13 +7,23 @@
 	<link rel="stylesheet" href="../styles/menu-item.css">
 	<link rel="icon" href="../assets/favicon.ico">
 	<title>FamDiner - Main Menu</title>
+  <script src="../script/loaduser.js"></script>
   <style>
     a {
       color: black;
     }
   </style>
 </head>
-<body style="margin: 0px;">
+<body style="margin: 0px;"onload="checkSession()">
+  <!-- Header Section -->
+  <div class="header">
+    <a href="./index.html"><img class="header-logo" src="./assets/logo.svg" alt="Fam Diner Logo"></a>
+    
+    <div class="button-group" id="button-group">
+      <a href="./register.html"><button class="register-button">REGISTER</button></a>
+      <a href="./login.html"><button class="login-button">LOGIN</button></a>
+    </div>
+  </div>
 	<div class="nav-bar">
     <div class="nav-buttons">
       <a href="../index.html" class="nav-button" >

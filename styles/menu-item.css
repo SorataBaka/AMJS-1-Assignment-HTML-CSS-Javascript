@@ -1,4 +1,64 @@
-
+/* Main header css styles */
+.header-group {
+	top: 0px;
+	/* height: auto;
+	position: sticky; */
+	box-shadow: 0px 0px 10px black;
+}
+.header {
+  background-image: linear-gradient(to bottom right, #003250 , #0098F2 );
+  height: 90px;
+  position:sticky;
+	top: 0px;
+	box-shadow: 0px 0px 10px black;
+}
+.header-logo {
+  height: 90px;
+  position: absolute;
+  top: 5px;
+  left: 35px;
+}
+.button-group {
+  position: absolute;
+  right: 30px;
+  top: 24px;
+  width: 210px;
+	height: auto;
+}
+.register-button {
+	background-color: #404040;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:14px 11px;
+	text-decoration:none;
+  border: none;
+  width: 100px;
+}
+.login-button:hover {
+	background-color:black;
+}
+.login-button {
+	background-color: #404040;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:14px 11px;
+	text-decoration:none;
+  border: none;
+  width: 100px;
+}
+.register-button:hover {
+	background-color:black;
+}
 /* Navigation bar */
 
 .nav-bar {
@@ -138,7 +198,7 @@ a {
 	width: 80vw;
 }
 .menu-item img {
-	height: 8vw;
+	height: 6vw;
 	padding-top: 20%;
 	padding-bottom: 10%;
 }
@@ -224,4 +284,17 @@ a {
 }
 .nav-menu-button {
 	color: white;
+}
+.logged-group {
+  position: absolute;
+  right: 30px;
+  top: 24px;
+  width: auto;
+	height: auto;
+}
+.Logged-in{
+	color: white;
+	font-size: 20px;
+	margin: 20px;
+	font-family: Arial, Helvetica, sans-serif;
 }
