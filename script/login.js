@@ -1,7 +1,6 @@
 var emailValid = false
 var formValid = false
 var passwordValid = false
-
 const login = async() => {
   const email = document.getElementById("email").value
   const password = document.getElementById("password").value

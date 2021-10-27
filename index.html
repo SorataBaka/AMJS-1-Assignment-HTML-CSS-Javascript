@@ -7,16 +7,16 @@
   <link rel="stylesheet" href="./styles/index.css">
 	<link rel="icon" href="../assets/favicon.ico">
   <title>FamDiner - Home</title>
-  
+  <script src="./script/loaduser.js"></script>
 </head>
-<body>
+<body onload="checkSession()">
 <div class="header-group">
 
   <!-- Header Section -->
   <div class="header">
     <a href="./index.html"><img class="header-logo" src="./assets/logo.svg" alt="Fam Diner Logo"></a>
     
-    <div class="button-group">
+    <div class="button-group" id="button-group">
       <a href="./register.html"><button class="register-button">REGISTER</button></a>
       <a href="./login.html"><button class="login-button">LOGIN</button></a>
     </div>
@@ -58,7 +58,7 @@
   <div class="main-body">
     <div class="body-content">
       <h1 class="body-text-header">WELCOME TO FAMDINER</h1>
-      <p class="body-text-paragraph">Serves the best food with wonderful experience</p>
+      <p class="body-text-paragraph">Serves the best food with wonderful the most wonderful experience</p>
       <a href="./menu.html"><button class="menu-button">OPEN MENU</button></a>
     </div>
   </div>
