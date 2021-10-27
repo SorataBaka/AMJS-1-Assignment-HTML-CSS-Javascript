@@ -298,3 +298,52 @@ a {
 	margin: 20px;
 	font-family: Arial, Helvetica, sans-serif;
 }
+@media only screen and (max-width:600px){
+	.header {
+		height: auto;
+		display: static;
+		padding-bottom: 4px;
+		padding-top: 4px;
+	}
+	.header-logo {
+		height: 90px;
+		position: static;
+		display: block;
+		margin: auto;
+	}
+	.button-group{
+		position: static;
+		display: block;
+		margin: auto;
+		margin-bottom: 10px;
+	}
+	.body-content {
+		padding-top: 18vh;
+	}
+	.body-text-header {
+		font-family: Arial, Helvetica, sans-serif;
+		color: white;
+		font-size: 40px;
+		margin-top: 0px;
+	}
+	.body-text-paragraph {
+		font-family: Arial, Helvetica, sans-serif;
+		color: white;
+		font-size: 20px;
+	}
+	.logged-group {
+		position: absolute;
+		right: 30px;
+		top: 24px;
+		width: auto;
+		height: auto;
+	}
+	.Logged-in{
+		color: white;
+		font-size: 20px;
+		margin: 20px;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	
+}
+
